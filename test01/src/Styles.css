@@ -1,0 +1,66 @@
+*{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+  
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow:1px 1px 10px rgb(216, 216, 224);
+    padding:5px;
+    
+    font-size: 20px;
+}
+ a {
+    text-decoration: none;
+    padding:10px 10px;
+    color:blue;
+    
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding:10px 30px 10px 30px;
+    border-radius: 120px;
+    border-color:blue;
+    color:blue;
+    cursor: pointer;
+}
+main{   
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#box1{
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.192), inset -20px -20px 60px rgba(255, 255, 255, 0.212);
+    border-radius: 20px;
+}
+#box2{
+    width:200px;
+    height: 200px;
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.192);
+    backdrop-filter: blur(10px);
+}
+.row2{
+    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.192), inset -20px -20px 60px rgba(255, 255, 255, 0.212);
+    background-image: url("https://static7.depositphotos.com/1004999/782/i/450/depositphotos_7823644-stock-photo-eco-green-planet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;}
