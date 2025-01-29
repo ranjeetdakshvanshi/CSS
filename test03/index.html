@@ -4,8 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSSTEST01</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        body{
+            width:100%;
+            height:100%;
+        }
+        #section1{
+            width:100%;
+            height: 100vh;
+            background-color: blue;
+        }
+        #section2{
+            width:100%;
+            height: 100vh;
+            background-color: rgb(200, 255, 0);
+        }
+        button{
+            margin:20px;
+               padding:5px 10px 10px 5px;
+        }
+    </style>
 </head>
 <body>
-    CSSTEST01
+    <center><button onclick="location.href='#section1'">Section1</button>    <button onclick="location.href='#section2'">Section2</button></center>
+    <div id="section1">
+        <h1>section1</h1>
+    </div>
+    <div id="section2">
+        <h1>section2</h1>
+    </div>
 </body>
 </html>
